@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yahya Abulhaj</title>
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="./style.css">
+    <script src="main.js"></script>
+    <link rel="icon" type="image/png" href="/assets/CloudVision.png">
+</head>
+
+<body>
+
+    <!-- header area -->
+    <header id="header">
+        <div class="row m-0">
+            <div class="col-3 bgcolor-black">
+                <nav class="primary-nav navbar-expand-md">
+                    <div class="site-title text-center text-light py-5">
+                        <a href="#" class="navbar-brand font-staat font-size-40">YA</a>
+                    </div>
+                    <div class="d-flex flex-column">
+                        <a href="#home" class="nav-item nav-link text-white-50 font-os font-size-16 active">Home</a>
+                        <a href="#about_me"
+                            class="nav-item nav-link text-white-50 font-os font-size-16 active">About</a>
+                        <a href="#awards"
+                            class="nav-item nav-link text-white-50 font-os font-size-16 active">Achievements</a>
+                        <a href="#portfolio"
+                            class="nav-item nav-link text-white-50 font-os font-size-16 active">Portfolio</a>
+                     <a href="https://cloud.itzyahya.tech/"
+                            class="nav-item nav-link text-white-50 font-os font-size-16 active" target="blank">CloudBoost</a>
+                        <a href="https://blog.yahya-abulhaj.dev/"
+                            class="nav-item nav-link text-white-50 font-os font-size-16 active" target="blank">Blog</a>
+                        <a href="#footer" class="nav-item nav-link text-white-50 font-os font-size-16 active">Contact
+                            Me</a>
+                        <p class="nav-item nav-link text-white-50 font-os font-size-16 active">Visitors: <a style="color: #fff" 
+                                id="counter"></a></p>
+                    </div>
+                </nav>
+            </div>
+        </div>
+        <button class="toggle-button"><span class="fas fa-bars fa-2x"></span></button>
+    </header>
+    <!-- #header area -->
+
+    <main id="site-main">
+        <div class="row m-0">
+            <div class="col-md-9 offset-md-3 px-0">
+
+                <!-- site-banner area -->
+                <section class="site-banner bg-light" id="home">
+                    <div class="banner-area">
+                        <div class="author text-center">
+                            <div class="author-img"></div>
+                            <h1 class="text-black font-staat font-size-40 text-uppercase py-3">Yahya Abulhaj</h1>
+                            <h5 class="text-black font-ram font-size-27">I'm a <span id="typed"></span></h5>
+                        </div>
+                    </div>
+                </section>
+                <!-- #site-banner area -->
+
+                <!-- about me area -->
+                <section class="about px-4 my-5" id="about_me">
+                    <div class="me py-5">
+                        <h5 class="text-uppercase font-os font-size-16 text-muted">information</h5>
+                        <h1 class="text-uppercase font-staat font-size-34">About Me</h1>
+                    </div>
+                    <div class="row m-0">
+                        <div class="col-sm-5 pl-0">
+                            <img src="./assets/thoughts.png" alt="profile image" class="img-fluid">
+                        </div>
+                        <div class="col-sm-6">
+                            <h6 class="text-uppercase font-os font-size-16 text-muted">About Me</h6>
+                            <h5 class="font-ram font-size-20 py-2">I'm Yahya Abulhaj & a <span id="typed_2"></span></h5>
+                            <p class="font-ram text-black-50 py-2">
+                                Cloud Computing and DevOps-related tools and technologies excite me. </br>
+                                The first thing that drew me in was Microsoft Azure. Productive and goal-oriented.
+                            </br> A lifelong learner who strives for continuous betterment on a daily basis.  </br>
+                                I am focused, motivated, and dedicated, with a keen eye for detail and a strong commitment to time management and prioritization.
+                            </p>
+                            <div class="d-flex flex-row flex-wrap justify-content-between py-4">
+                                <div class="d-flex flex-column">
+                                    <p class="font-ram"><b>Website: </b><span
+                                            class="text-black-50">www.yahya-abulhaj.dev</span></p>
+                                </div>
+                                <div class="d-flex flex-column">
+                                    <p class="font-ram"><b>Degree: </b><span class="text-black-50">Bachelors in Computer Engineering</span></p>
+                                </div>
+                            </div>
+                            <button type="submit" onclick="window.open('/assets/YahyaCV.pdf')"
+                                class="btn btn-dark text-uppercase mr-3">Review CV</button>
+                        </div>
+                    </div>
+                </section>
+                <!-- #about me area -->
+
+                <!-- ability -->
+                <section class="skill px-4 py-5 bg-light" id="services">
+                    <div class="ability py-3">
+                        <h5 class="text-uppercase font-os font-size-16 text-muted">Ability</h5>
+                        <h1 class="text-uppercase font-staat font-size-34">My skills</h1>
+                    </div>
+                    <div class="row">
+                        <div class="col-sm-6 pl-4">
+                            <p class="font-ram font-size-16 text-black-50 pb-3">
+                                I'm well-versed in web technologies & have experimented with a variety of frameworks and libraries such as React, NextJS, and Gatsby.  In addition, working with infrastructure & backend is something I enjoy doing.                        
+                                </br>
+                            
+                                I'm comfortable with embedded programming as well, since it is my university major.</br>I used C/CPP to program various microcontrollers including PIC, STM & PSOC.
+                            </p>
+                            <ul class="list-inline dev-icons">
+
+                                <li class="list-inline-item">
+                                    <i class="fa-brands fa-microsoft"></i>
+                                        <i class="fab fa-aws"></i>
+                                        <i class="fa-solid fa-terminal"></i>
+                                        <i class="fa-brands fa-linux"></i> 
+                                    </li>
+
+                                <li class="list-inline-item">
+                                    <i class="fab fa-node-js"></i>
+                                    <i class="fa-solid fa-atom"></i>
+                                    <i class="fab fa-html5"></i>
+                                    <i class="fa-brands fa-github"></i>
+                                </li>
+                                
+
+                              
+                                
+                  
+                            </ul>
+                        </div>
+                </section>
+                <!-- #ability -->
+
+
+                <!-- awards -->
+                <section class="awards px-4 py-5" id="awards">
+                    <div class="do py-5">
+                        <h5 class="text-uppercase font-os font-size-16 text-muted">What I have achieved</h5>
+                        <h1 class="text-uppercase font-staat font-size-34"><i class="fas fa-award"></i> Awards &amp;
+                            Certifications</h1>
+                    </div>
+                    <div class="w-100">
+
+                        <ul class="fa-ul mb-0 font-ram font-size-16 text-black-50 pb-3">
+                            <li>
+                                <i class="fa-li fa fa-trophy text-warning"></i>
+                                Microsoft Azure Fundamentals                             
+            
+                            </li>
+                            <li>
+                                <i class="fa-li fa fa-trophy text-warning" ></i>
+                                Microsoft Azure Data Fundamentals 
+                            </li>
+                            <li>
+                                <i class="fa-li fa fa-trophy text-warning"></i>
+                                 Microsoft Azure AI Fundamentals
+                            </li>
+                            <li>
+                                <i class="fa-li fa fa-trophy text-warning"></i>
+                                Microsoft PowerPlatform Fundamentals
+                            </li>
+                            <li>
+                                <i class="fa-li fa fa-trophy text-warning"></i>
+                                Microsoft Azure Administrator Associate 
+                            </li>
+                            <li>
+                                <i class="fa-li fa fa-trophy text-warning"></i>
+                                Microsoft Azure Developer Associate 
+                            </li>
+                            <li>
+                                <i class="fa-li fa fa-trophy text-warning"></i>
+                                Microsoft Azure Security Engineer Associate 
+                            </li>
+                            <li>
+                                <i class="fa-li fa fa-trophy text-warning"></i>
+                                Microsoft DevOps Engineer Expert 
+                            </li>
+                            <li>
+                                <i class="fa-li fa fa-trophy text-warning"></i>
+                                Microsoft Azure Solutions Architect Expert 
+                            </li>
+                            <li>
+                                <i class="fa-li fa fa-trophy text-warning"></i>
+                                HashiCorp Certified: Terraform Associate                           
+                            </li>
+                        
+                        </ul>
+                        <button type="submit" class="btn btn-dark text-uppercase mr-3">
+                           
+                        <a href="https://www.credly.com/users/yahya-abulhaj/badges" target="_blank"  >Verify</a>
+                        </button>
+                    </div>
+                </section>
+                <!-- #services -->
+
+                <!-- work -->
+                <section class="work py-5 px-4 bg-light" id="portfolio">
+                    <div class="py-3">
+                        <h5 class="text-uppercase font-os font-size-16 text-muted">Porfolio</h5>
+                        <h1 class="text-uppercase font-staat font-size-34">Creative Work</h1>
+                    </div>
+                    <div class="row">
+                        <div class="frame col-xs-6"></div>
+                        <div class="frame col-sm-4 pb-4">
+                            <a href="https://cloud.itzyahya.tech"><img src="./assets/work/p1.PNG" title="CloudBoost"
+                                    alt="project 1" class="img-fluid"></a>
+                            <div class="details">
+                                <h2>CloudBoost - Prep</h2>
+                                <p><a href="https://cloud.itzyahya.tech" title="Live Site"><i
+                                            class="far fa-eye eye"></i></a></p>
+                                <p><a href="https://github.com/Y4HYA4/CloudBoost" title="Source Code"><i
+                                            class="fab fa-github-square giti"></i></a></p>
+                            </div>
+                        </div>
+                        <div class="frame col-sm-4 pb-4">
+                            <a href="https://covid.yahya-abulhaj.dev"> <img src="./assets/work/p2.PNG"
+                                    title="Covid Tunisia" alt="Project 2" class="img-fluid"></a>
+                            <div class="details">
+                                <h2>Covid Tunisia - Stats</h2>
+                                <p><a href="https://covid.yahya-abulhaj.dev" title="Live Site"><i
+                                            class="far fa-eye eye"></i></a>
+                                </p>
+                                <p><a href="https://github.com/Y4HYA4/covid-19" title="Source Code"><i
+                                            class="fab fa-github-square giti"></i></a></p>
+                            </div>
+                        </div>
+                        <div class="frame col-sm-4 pb-4">
+                            <a href="https://degree.yahya-abulhaj.dev"><img src="./assets/work/p3.png"
+                                    title="Bachelors Degree" alt="Project 3" class="img-fluid"></a>
+                            <div class="details">
+                                <h2>Bachelors Program - informative</h2>
+                                <p><a href="https://degree.yahya-abulhaj.dev" title="Live Site"><i
+                                            class="far fa-eye eye"></i></a>
+                                </p>
+                                <p><a href="https://github.com/Y4HYA4/bachelors_degree" title="Source Code"><i
+                                            class="fab fa-github-square giti"></i></a></p>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <!-- #work -->
+
+
+                <!--footer-->
+                <footer id="footer" class="pt-5 px-3">
+                    <div id="contact_us">
+                        <div class="py-3 px-2">
+                            <h5 class="text-uppercase font-os font-size-16 text-muted">Location</h5>
+                            <h1 class="text-uppercase font-staat font-size-34">Contact Me</h1>
+                        </div>
+                        <div class="row py-5">
+                            <div class="col-sm-4 pl-4">
+                                <h6 class="text-uppercase font-ram font-size-16 text-dark">Yahya Abulhaj</h6>
+                                <p class="font-ram font-size-16 text-black-50">ADDRESS: Tunis, Tunisia </p>
+                            </div>
+                            <div class="col-sm-7 py-2 px-2">
+                                <h6 class="text-uppercase font-ram font-size-16">Get in touch</h6>
+                                <form class="py-3" action="https://formspree.io/f/mnqwolqj" method="POST">   
+                                    <div class="row">
+                                        <div class="col">
+                                            <input type="text" name="Name" class="form-control" placeholder="Name">
+                                        </div>
+                                        <div class="col">
+                                            <input type="email" name="Email" class="form-control" placeholder="Email">
+                                        </div>
+                                    </div>
+                                    <textarea name="message" id="" cols="30" rows="3" class="form-control my-4"
+                                        placeholder="Message"></textarea>
+                                    <button type="submit" class="btn btn-dark">Say Hello!</button>
+                                </form>
+                            </div>
+                        </div>
+                        <div class="row bg-light py-5">
+                            <div class="col-sm-4 my-5 text-center">
+                                <h6 class="font-ram font-size-16 text-black-50">&copy;2022 Yahya. All rights reserved
+                                </h6>
+                            </div>
+                            <div class="col-sm-4 my-4 text-center">
+                                <div class="footer-title">
+                                    <p class="description font-os font-size-16 text-black-50 text-uppercase">Made with ❤
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="social-icons col-sm-4 my-4 text-center">
+                                <a href="https://www.linkedin.com/in/yahya-abulhaj/" target="blank">
+                                    <i class="fab fa-linkedin-in"></i>
+                                </a>
+                                <a href="https://github.com/Y4HYA4" target="blank">
+                                    <i class="fab fa-github"></i>
+                                </a>
+                                <a href="https://twitter.com/AbulhajYahya" target="blank">
+                                    <i class="fab fa-twitter"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </footer>
+
+            </div>
+        </div>
+    </main>
+
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+        crossorigin="anonymous"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/js/all.min.js"
+        integrity="sha256-MAgcygDRahs+F/Nk5Vz387whB4kSK9NXlDN3w58LLq0=" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/41b13b0b31.js" crossorigin="anonymous"></script>
+    
+    <script src="./vendor/typed/typed.min.js"></script>
+
+    <script src="./index.js"></script>
+</body>
+
+</html>
