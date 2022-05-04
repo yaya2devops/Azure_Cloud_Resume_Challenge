@@ -15,12 +15,19 @@ Challenges:
 - [x] Use HTML and CSS to build the website and store the code in the repo.
 - [x] Add a visitor count to the website using Azure Functions, Azure Cosmos DB.
 - [x] Deploy the website to Azure Blob Storage.
-- [ ] Enable HTTPS and custom domain support using Azure Content Delivery Network.
+- [x] Enable HTTPS
+- [ ] Enable custom domain support using Azure Content Delivery Network
 - [x] Unit Testing using DOTNET 6
 - [x] Pipeline Configuration and Set up GitHub Actions 
 
 ## Progress
 I was able to complete all of the challenges except for the CDN part under Azure Storage since the "Azure for Students" subscription does not support it.
+
+## Considering a solution for the custom domain
+Using [CloudFlare DNS](https://support.cloudflare.com/hc/en-us/articles/201720164-Creating-a-Cloudflare-account-and-adding-a-website) as indirect CNAME validation + this should increase the speed and security 😃.
+ [Look here for more](https://adamtheautomator.com/azure-static-website/)
+
+
 
 ## Thoughts..
 I'd been thinking about this project for a while. I was so moved by [The Cloud Resume Challenge](https://cloudresumechallenge.dev/docs/the-challenge/azure/) and the cool technologies used in tandem. Additionally, I'm an Azure fanboy so I thought it best to give it a shot prior to my excursion into aws!
