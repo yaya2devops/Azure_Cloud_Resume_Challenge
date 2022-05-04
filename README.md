@@ -15,8 +15,9 @@ Challenges:
 - [x] Use HTML and CSS to build the website and store the code in the repo.
 - [x] Add a visitor count to the website using Azure Functions, Azure Cosmos DB.
 - [x] Deploy the website to Azure Blob Storage.
-- [x] Enable HTTPS and custom domain support.
-- [x] Set up GitHub Actions.
+- [x] Enable HTTPS and custom domain support using Azure Content Delivery Network.
+- [x] Unit Testing using DOTNET 6
+- [x] Pipeline Configuration and Set up GitHub Actions 
 
 ## Thoughts..
 I'd been thinking about this project for a while. I was so moved by [The Cloud Resume Challenge](https://cloudresumechallenge.dev/docs/the-challenge/azure/) and the cool technologies used in tandem. Additionally, I'm an Azure fanboy so I thought it best to give it a shot prior to my excursion into aws!
