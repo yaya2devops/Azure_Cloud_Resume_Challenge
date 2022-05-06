@@ -24,8 +24,9 @@ Challenges:
 I was able to complete all of the challenges except for the CDN part under Azure Storage since the "Azure for Students" subscription does not support it.
 
 ## Considering a solution for the custom domain
-Using [CloudFlare DNS](https://support.cloudflare.com/hc/en-us/articles/201720164-Creating-a-Cloudflare-account-and-adding-a-website) as indirect CNAME validation + this should increase the speed and security 😃.
- [Look here for more](https://adamtheautomator.com/azure-static-website/)
+Using [CloudFlare DNS](https://support.cloudflare.com/hc/en-us/articles/201720164-Creating-a-Cloudflare-account-and-adding-a-website) as indirect CNAME validation + this should increase the speed and security 😃. <br/>
+ [Look here for more](https://adamtheautomator.com/azure-static-website/) <br/>
+ [This one is helpful too!](https://thecloudhub.com/2019/09/24/using-cloudflare-with-azure-blob-storage/)
 
 
 
