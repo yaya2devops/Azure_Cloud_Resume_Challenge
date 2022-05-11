@@ -66,7 +66,7 @@ I'd been thinking about this project for a while. I was so moved by [The Cloud R
     - clone repository locally
     
     ```
-    git clone git@github.com:Pavel-Hrabec/Azure-Resume-Challenge.git
+    git clone git@github.com:Y4HYA4/Azure-Resume-Challenge.git
     ```
     
 - [Download website template](https://www.styleshout.com/) to not start from complete scratch
