@@ -143,11 +143,10 @@ Creation of Azure Function
 - Write Python code to [test Azure Functions](https://docs.microsoft.com/en-us/azure/azure-functions/functions-reference-python?tabs=asgi%2Cazurecli-linux%2Capplication-level#unit-testing)
     - [Pytest](https://docs.pytest.org/en/6.2.x/getting-started.html) can be used to run unit tests
 - Set up a [Python workflow](https://docs.microsoft.com/en-us/azure/azure-functions/functions-how-to-github-actions?tabs=python#deploy-the-function-app) that uses a publish profile
-- 
-<br>
 
 
-# Helpful Resources!
+
+# More Resources!
 ### Storage Account
 
 - Tutorial: [Host a static website on Blob Storage](https://docs.microsoft.com/en-us/azure/storage/blobs/storage-blob-static-website-host)
