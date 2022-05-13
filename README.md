@@ -29,7 +29,7 @@ Using [CloudFlare DNS](https://support.cloudflare.com/hc/en-us/articles/20172016
 - [x] From Cloudflare add a PageRule to your Domaine and strict SSL
 - [x] Set up CloudFlare DNS [Source1](https://adamtheautomator.com/azure-static-website/) 
  [This one is helpful too!](https://thecloudhub.com/2019/09/24/using-cloudflare-with-azure-blob-storage/) <br/>
- Everything is ready now, you should able to have your website running without the need of azure CDN.
+ Everything is ready now, you should able to have your website running without the need of azure CDN!
  
 
 
