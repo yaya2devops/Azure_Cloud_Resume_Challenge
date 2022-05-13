@@ -1,17 +1,13 @@
-name: deploy_frontend
+name: Blob storage website CI
 
-# Deploy when push made from frontend folder.
 on:
     push:
         branches: [ main ]
-        paths:
-        - 'frontend/**'
-    
 
 jobs:
   build:
     runs-on: ubuntu-latest
-    steps:            
+    steps:
     - uses: actions/checkout@v2
     - uses: azure/login@v1
       with:
@@ -20,17 +16,11 @@ jobs:
     - name: Upload to blob storage
       uses: azure/CLI@v1
       with:
-        azcliversion: 2.0.72
         inlineScript: |
-            az storage blob upload-batch --account-name azureresumesto -d '$web' -s frontend/
-    - name: Purge CDN endpoint
-      uses: azure/CLI@v1
-      with:
-        azcliversion: 2.0.72
-       # inlineScript: |
-       #   az cdn endpoint purge --content-paths "/*" --resource-group its_name --profile-name itzname --name itzname
-  # the line above have to chance
-  # Azure logout 
+            az storage blob upload-batch --account-name azureresumesto --auth-mode key -d '$web' -s .
+
+  # Azure logout
     - name: logout
       run: |
             az logout
+      if: always()
