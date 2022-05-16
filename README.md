@@ -31,7 +31,7 @@ Using [CloudFlare DNS](https://support.cloudflare.com/hc/en-us/articles/20172016
 - [Help1](https://adamtheautomator.com/azure-static-website/) 
   [Help2](https://thecloudhub.com/2019/09/24/using-cloudflare-with-azure-blob-storage/) <br/>
  
- Everything is ready now, you should able to have your website running without the need of azure CDN!
+ Everything is ready now, you should be able to run your website without the need for a CDN.
  
 
 
