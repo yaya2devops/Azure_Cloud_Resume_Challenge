@@ -26,9 +26,11 @@ I was able to complete all of the challenges except for the CDN part under Azure
 ## Considering a solution for the custom domain
 Using [CloudFlare DNS](https://support.cloudflare.com/hc/en-us/articles/201720164-Creating-a-Cloudflare-account-and-adding-a-website) as indirect CNAME validation + this should increase the speed and security 😃. <br/>
 - [x] Cloudflare nameservers to your main domain. [Source](https://developers.cloudflare.com/dns/zone-setups/full-setup/setup/)
-- [x] From Cloudflare add a PageRule to your Domaine and strict SSL
-- [x] Set up CloudFlare DNS [Source1](https://adamtheautomator.com/azure-static-website/) 
- [This one is helpful too!](https://thecloudhub.com/2019/09/24/using-cloudflare-with-azure-blob-storage/) <br/>
+- [x] From Cloudflare add a PageRule to your domain and strict SSL.
+- [x] Set up CloudFlare DNS
+- [Help1](https://adamtheautomator.com/azure-static-website/) 
+  [Help2](https://thecloudhub.com/2019/09/24/using-cloudflare-with-azure-blob-storage/) <br/>
+ 
  Everything is ready now, you should able to have your website running without the need of azure CDN!
  
 
