@@ -7,6 +7,12 @@ This is a portion of the [A Cloud Guru Challenge](https://acloudguru.com/blog/en
 
 ➡️[Here Is My GO At It.](https://azureresumesto.z13.web.core.windows.net) 
 
+---
+
+ ⚠️[Click here](https://github.com/Y4HYA4/_blogs_archive/blob/main/cl3t6dogo0046fcnvhnvo4iwd.md)⚠️ to read my blog post about the challenge and how my troubleshooting went.
+ 
+---
+
 ## Introduction
 
 Challenges:
