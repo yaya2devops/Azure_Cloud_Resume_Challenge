@@ -6,6 +6,7 @@ I'm delighted to take part in the Azure Cloud Resume Challenge.
 This is a portion of the [A Cloud Guru Challenge](https://acloudguru.com/blog/engineering/cloudguruchallenge-your-resume-in-azure).
 
 ➡️[Here Is My GO At It.](https://azureresumesto.z13.web.core.windows.net) 
+> That is the Azure Storage Domain; you can visit the website via the custom domain above on the right! that's what it's all about lol.
 
 ---
 
