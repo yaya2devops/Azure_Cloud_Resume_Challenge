@@ -9,10 +9,6 @@ This is a portion of the [A Cloud Guru Challenge](https://acloudguru.com/blog/en
 
 ---
 
- ⚠️[Click here](https://github.com/Y4HYA4/_blogs_archive/blob/main/cl3t6dogo0046fcnvhnvo4iwd.md)⚠️ to read my blog post about the challenge and how my troubleshooting went.
- 
----
-
 ## Introduction
 
 Challenges:
@@ -39,6 +35,12 @@ Using [CloudFlare DNS](https://support.cloudflare.com/hc/en-us/articles/20172016
  
  Everything is ready now, you should be able to run your website without the need for a CDN.
  
+ ---
+
+## ⚠️ [Click here](https://github.com/Y4HYA4/_blogs_archive/blob/main/cl3t6dogo0046fcnvhnvo4iwd.md)⚠️
+**To read my blog post about the challenge and how my troubleshooting went.**
+ 
+---
 
 
 ## Thoughts..
